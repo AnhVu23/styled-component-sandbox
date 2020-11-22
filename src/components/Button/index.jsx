@@ -6,13 +6,15 @@
 *
 * @copyright Anh Vu
 */
-import {Button} from './button.style'
+import {PrimaryButton, SecondaryButton} from './button.style'
 const CustomButton = ({text, onClick}) => {
     return (
-        <Button onClick={onClick}>
-            <span>{text}</span>
-        </Button>
+        <PrimaryButton onClick={onClick}>
+            {}
+        </PrimaryButton>
     )
 }
 
 export default CustomButton
+
+export {PrimaryButton, SecondaryButton}

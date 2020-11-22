@@ -5,3 +5,7 @@ export const NormalText = styled.p`
     font-size: 14px;
     font-family: Arial, sans-serif;
 `
+
+export const BoldText = styled(NormalText)`
+    font-weight: 700
+`

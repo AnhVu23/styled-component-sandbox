@@ -6,6 +6,6 @@
 *
 * @copyright Anh Vu
 */
-import {NormalText} from './text.style'
+import {NormalText, BoldText} from './text.style'
 
-export {NormalText}
+export {NormalText, BoldText}
