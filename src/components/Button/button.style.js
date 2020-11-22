@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 export const PrimaryButton = styled.button`
-    background-color: green;
+    background-color: ${props => props.theme.mainColor};
     padding: 8px 16px;
     outline: none;
     border: 0;
@@ -14,5 +14,5 @@ export const PrimaryButton = styled.button`
     text-decoration: none;
 `
 export const SecondaryButton = styled(PrimaryButton)`
-    background-color: red;
+    background-color: ${props => props.theme.secondaryColor};
 `
